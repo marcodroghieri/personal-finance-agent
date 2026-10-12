@@ -42,8 +42,8 @@ class RisultatoValidazione:
 
 def _scarto_al_centesimo(a: float, b: float) -> float:
     """Differenza fra due importi, arrotondata al centesimo. Serve perché i
-    decimali del computer non sono esatti: 10,02 - 10,00 può dare
-    0,0200000000001, che supererebbe la tolleranza di 0,02."""
+    decimali del computer non sono esatti: 10,05 - 10,03 dà
+    0,02000000000000135, che supererebbe la tolleranza di 0,02."""
     return round(abs(a - b), 2)
 
 
