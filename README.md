@@ -52,6 +52,10 @@ Servono Python 3 (sviluppato con la 3.12) e [Ollama](https://ollama.com).
 Dopo la prima elaborazione il registro si crea da solo nella cartella del
 progetto (`registro_spese.db`).
 
+Per provare la chat senza scrivere nel registro, mettere a `False` la costante
+`SALVA_NEL_REGISTRO` all'inizio di `codice/chat.py`: i documenti vengono
+elaborati e mostrati, ma non salvati.
+
 ## Come si usa
 
 - **Un documento:** allegare la foto o il PDF. Compaiono esercente, categoria,

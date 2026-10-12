@@ -1,9 +1,9 @@
-# Librerie Python del progetto. Versioni non fissate: il progetto è stato
-# sviluppato e provato con Chainlit 2.x; le altre seguono l'ultima disponibile.
-chainlit
-langgraph
-pydantic
-ollama
-pymupdf
-pillow
-matplotlib
+# Librerie Python del progetto. Le versioni sono quelle installate sulla
+# macchina su cui il sistema è stato sviluppato e provato (ottobre 2026).
+chainlit==2.12.0
+langgraph==1.2.11
+pydantic==2.12.3
+ollama==0.6.0
+pymupdf==1.28.2
+pillow==10.2.0
+matplotlib==3.11.0

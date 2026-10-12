@@ -33,7 +33,7 @@ from persistenza import salva_documento
 # Se True, i documenti caricati in chat vengono salvati nel registro
 # (registro_spese.db). Con False la chat elabora e mostra il risultato ma non
 # scrive nulla: utile per provare senza sporcare il registro vero.
-SALVA_NEL_REGISTRO = False
+SALVA_NEL_REGISTRO = True
 
 PIPELINE = costruisci_grafo()
 
